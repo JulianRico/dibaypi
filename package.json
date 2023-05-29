@@ -1,0 +1,27 @@
+{
+  "name": "AppBackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "2.8.5",
+    "express": "4.17.1",
+    "ioredis": "5.3.2",
+    "lodash": "4.17.21",
+    "mysql": "2.17.1",
+    "node": "12.7.0",
+    "redis": "^4.6.6",
+    "socket.io": "4.1.3",
+    "uws": "200.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "julian andres quintero rico",
+  "license": "ISC"
+}
