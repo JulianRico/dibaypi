@@ -24,7 +24,7 @@ const mysqlConnection = mysql.createPool({
  
  
  
- const mysqlConnection = mysql.createPool({connectionLimit : 10, host: "190.60.223.35", user: "ujflorepij_jq", password: "14703939.Julian", database: "ujflorepij_dibay"});  
+ const mysqlConnection = mysql.createPool({connectionLimit : 100, host: "35.238.146.63", user: "julian", password: "14703939.Julian", database: "dbdibay"});  
  
 // const mysqlConnection = mysql.createPool({connectionLimit : 1000, host: "database-1.ctleg9gqae8v.us-east-2.rds.amazonaws.com", user: "root", password: "password", database: "vitahome"}); 
  
